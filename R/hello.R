@@ -12,6 +12,8 @@ sumar2 <- function(A,B) {
   C <- A + B
   return(C)
 }
-# Ingreso de dtos
-N <- ingreso()
-S <- sumar2()
+#PROGRAMA PRINCIPAL
+num1<-ingreso()
+num2<-ingreso()
+result<-sumar2(num1,num2)
+cat("La suma es: ", result
